@@ -57,6 +57,16 @@ const App = () => {
 
   return (
     <Container className="mt-5">
+       
+      <div className="text-center">
+        <img
+          src="logo.png"
+          alt="RojgarSetu Logo"
+          className="mb-3"
+          style={{ width: "120px", borderRadius: "50%" }}
+        />
+        <h2 className="text-primary">RojgarSetu Job Application</h2>
+      </div>
       <Form className="p-4 border rounded shadow bg-light" onSubmit={handleSubmit}>
         <Row>
           <Col md={6}>
