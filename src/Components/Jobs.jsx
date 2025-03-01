@@ -1,3 +1,5 @@
+
+
 import React, { useState } from "react";
 import FeaturedJobs from "./FeaturedJobs";
 
@@ -67,33 +69,3 @@ export default Jobs;
 
 
 
-// import React from 'react'
-// import { Link } from 'react-router-dom'
-// import FeaturedJobs from './FeaturedJobs'
-
-// function Jobs() {
-//     function handleSearch(event) {
-//         event.preventDefault(); // Prevent page reload
-//         let query = document.getElementById("searchInput").value;
-//         if (query.trim() !== "") {
-//           console.log("Searching for:", query);
-//           // You can redirect or filter results here
-//           // window.location.href = `https://www.google.com/search?q=${query}`;
-//         } else {
-//           alert("Please enter a search term.");
-//         }
-//       }
-//   return (
-//     <>
-//     <br />
-   
-//     <form class="d-flex justify-content-end">
-//   <input class="form-control me-2 w-25" type="search" placeholder="Search" aria-label="Search"/>
-//         <button class="btn btn-outline-success" type="submit" onClick={handleSearch}>Search</button>
-//       </form>
-//     <FeaturedJobs/>
-//     </>
-//   )
-// }
-
-// export default Jobs

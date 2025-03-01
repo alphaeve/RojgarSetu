@@ -5,6 +5,8 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Application from "./Components/Application";
 import Jobs from "./Components/Jobs";
+import JobDetails from "./Components/JobDetails";
+import "./index.css";
 
 const App = () => {
   return (
@@ -14,7 +16,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/application" element={<Application />} />
         <Route path="/Jobs" element={<Jobs />} /> 
-      </Routes>
+        <Route path="/jobs/:jobId" element={<JobDetails />} />
+      </Routes> 
     </Router>
   );
 };
